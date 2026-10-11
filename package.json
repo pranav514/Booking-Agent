@@ -12,7 +12,8 @@
     "start": "NODE_ENV=production tsx src/server/server.ts",
     "test": "vitest run",
     "test:watch": "vitest",
-    "seed": "tsx src/scripts/seedCalendar.ts"
+    "seed": "tsx src/scripts/seedCalendar.ts",
+    "vapi:setup": "tsx src/scripts/configureVapi.ts"
   },
   "dependencies": {
     "@fastify/cors": "^9.0.1",
